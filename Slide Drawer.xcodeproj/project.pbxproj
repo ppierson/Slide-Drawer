@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A204062172067480027A479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A204061172067480027A479 /* UIKit.framework */; };
+		8A204064172067480027A479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A204063172067480027A479 /* Foundation.framework */; };
+		8A204066172067480027A479 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A204065172067480027A479 /* CoreGraphics.framework */; };
+		8A20406C172067480027A479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A20406A172067480027A479 /* InfoPlist.strings */; };
+		8A20406E172067480027A479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20406D172067480027A479 /* main.m */; };
+		8A204072172067480027A479 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A204071172067480027A479 /* AppDelegate.m */; };
+		8A204074172067480027A479 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A204073172067480027A479 /* Default.png */; };
+		8A204076172067480027A479 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A204075172067480027A479 /* Default@2x.png */; };
+		8A204078172067480027A479 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A204077172067480027A479 /* Default-568h@2x.png */; };
+		8A20408C172067480027A479 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A20408B172067480027A479 /* SenTestingKit.framework */; };
+		8A20408D172067480027A479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A204061172067480027A479 /* UIKit.framework */; };
+		8A20408E172067480027A479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A204063172067480027A479 /* Foundation.framework */; };
+		8A204096172067480027A479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A204094172067480027A479 /* InfoPlist.strings */; };
+		8A204099172067480027A479 /* Slide_DrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A204098172067480027A479 /* Slide_DrawerTests.m */; };
+		8A2040A51720675F0027A479 /* UINavigationController+PPSlideDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2040A41720675F0027A479 /* UINavigationController+PPSlideDrawer.m */; };
+		8A2040AA17206C8C0027A479 /* LeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2040A817206C8C0027A479 /* LeftDrawerViewController.m */; };
+		8A2040AB17206C8C0027A479 /* LeftDrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2040A917206C8C0027A479 /* LeftDrawerViewController.xib */; };
+		8A2040AF17206CA50027A479 /* BottomDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2040AD17206CA50027A479 /* BottomDrawerViewController.m */; };
+		8A2040B017206CA50027A479 /* BottomDrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2040AE17206CA50027A479 /* BottomDrawerViewController.xib */; };
+		8A2040BA17206CCE0027A479 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2040B817206CCE0027A479 /* MainViewController.m */; };
+		8A2040BB17206CCE0027A479 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2040B917206CCE0027A479 /* MainViewController.xib */; };
+		8A2040BC17206EB10027A479 /* UINavigationController+PPSlideDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2040A41720675F0027A479 /* UINavigationController+PPSlideDrawer.m */; };
+		8A2040C017206ED80027A479 /* TopDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2040BE17206ED80027A479 /* TopDrawerViewController.m */; };
+		8A2040C117206ED80027A479 /* TopDrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2040BF17206ED80027A479 /* TopDrawerViewController.xib */; };
+		8A2040C517206EE10027A479 /* RightDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2040C317206EE10027A479 /* RightDrawerViewController.m */; };
+		8A2040C617206EE10027A479 /* RightDrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2040C417206EE10027A479 /* RightDrawerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A20408F172067480027A479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A204056172067480027A479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A20405D172067480027A479;
+			remoteInfo = "Slide Drawer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A20405E172067480027A479 /* Slide Drawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slide Drawer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A204061172067480027A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A204063172067480027A479 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A204065172067480027A479 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A204069172067480027A479 /* Slide Drawer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slide Drawer-Info.plist"; sourceTree = "<group>"; };
+		8A20406B172067480027A479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A20406D172067480027A479 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A20406F172067480027A479 /* Slide Drawer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slide Drawer-Prefix.pch"; sourceTree = "<group>"; };
+		8A204070172067480027A479 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A204071172067480027A479 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A204073172067480027A479 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A204075172067480027A479 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A204077172067480027A479 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A20408A172067480027A479 /* Slide DrawerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slide DrawerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A20408B172067480027A479 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A204093172067480027A479 /* Slide DrawerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slide DrawerTests-Info.plist"; sourceTree = "<group>"; };
+		8A204095172067480027A479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A204097172067480027A479 /* Slide_DrawerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slide_DrawerTests.h; sourceTree = "<group>"; };
+		8A204098172067480027A479 /* Slide_DrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slide_DrawerTests.m; sourceTree = "<group>"; };
+		8A2040A31720675F0027A479 /* UINavigationController+PPSlideDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PPSlideDrawer.h"; sourceTree = "<group>"; };
+		8A2040A41720675F0027A479 /* UINavigationController+PPSlideDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PPSlideDrawer.m"; sourceTree = "<group>"; };
+		8A2040A717206C8C0027A479 /* LeftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDrawerViewController.h; sourceTree = "<group>"; };
+		8A2040A817206C8C0027A479 /* LeftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDrawerViewController.m; sourceTree = "<group>"; };
+		8A2040A917206C8C0027A479 /* LeftDrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftDrawerViewController.xib; sourceTree = "<group>"; };
+		8A2040AC17206CA50027A479 /* BottomDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomDrawerViewController.h; sourceTree = "<group>"; };
+		8A2040AD17206CA50027A479 /* BottomDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomDrawerViewController.m; sourceTree = "<group>"; };
+		8A2040AE17206CA50027A479 /* BottomDrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomDrawerViewController.xib; sourceTree = "<group>"; };
+		8A2040B717206CCE0027A479 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8A2040B817206CCE0027A479 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8A2040B917206CCE0027A479 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		8A2040BD17206ED80027A479 /* TopDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDrawerViewController.h; sourceTree = "<group>"; };
+		8A2040BE17206ED80027A479 /* TopDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDrawerViewController.m; sourceTree = "<group>"; };
+		8A2040BF17206ED80027A479 /* TopDrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopDrawerViewController.xib; sourceTree = "<group>"; };
+		8A2040C217206EE10027A479 /* RightDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightDrawerViewController.h; sourceTree = "<group>"; };
+		8A2040C317206EE10027A479 /* RightDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightDrawerViewController.m; sourceTree = "<group>"; };
+		8A2040C417206EE10027A479 /* RightDrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightDrawerViewController.xib; sourceTree = "<group>"; };
+		8A38992517218EE600C6002B /* PPSlideDrawerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPSlideDrawerDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A20405B172067480027A479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A204062172067480027A479 /* UIKit.framework in Frameworks */,
+				8A204064172067480027A479 /* Foundation.framework in Frameworks */,
+				8A204066172067480027A479 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A204086172067480027A479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A20408C172067480027A479 /* SenTestingKit.framework in Frameworks */,
+				8A20408D172067480027A479 /* UIKit.framework in Frameworks */,
+				8A20408E172067480027A479 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A204055172067480027A479 = {
+			isa = PBXGroup;
+			children = (
+				8A2040A21720674F0027A479 /* PPSlideDrawer */,
+				8A204067172067480027A479 /* Slide Drawer */,
+				8A204091172067480027A479 /* Slide DrawerTests */,
+				8A204060172067480027A479 /* Frameworks */,
+				8A20405F172067480027A479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A20405F172067480027A479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A20405E172067480027A479 /* Slide Drawer.app */,
+				8A20408A172067480027A479 /* Slide DrawerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A204060172067480027A479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A204061172067480027A479 /* UIKit.framework */,
+				8A204063172067480027A479 /* Foundation.framework */,
+				8A204065172067480027A479 /* CoreGraphics.framework */,
+				8A20408B172067480027A479 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A204067172067480027A479 /* Slide Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				8A2040A617206BD60027A479 /* Drawers */,
+				8A2040B717206CCE0027A479 /* MainViewController.h */,
+				8A2040B817206CCE0027A479 /* MainViewController.m */,
+				8A2040B917206CCE0027A479 /* MainViewController.xib */,
+				8A204070172067480027A479 /* AppDelegate.h */,
+				8A204071172067480027A479 /* AppDelegate.m */,
+				8A204068172067480027A479 /* Supporting Files */,
+			);
+			path = "Slide Drawer";
+			sourceTree = "<group>";
+		};
+		8A204068172067480027A479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A204069172067480027A479 /* Slide Drawer-Info.plist */,
+				8A20406A172067480027A479 /* InfoPlist.strings */,
+				8A20406D172067480027A479 /* main.m */,
+				8A20406F172067480027A479 /* Slide Drawer-Prefix.pch */,
+				8A204073172067480027A479 /* Default.png */,
+				8A204075172067480027A479 /* Default@2x.png */,
+				8A204077172067480027A479 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A204091172067480027A479 /* Slide DrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A204097172067480027A479 /* Slide_DrawerTests.h */,
+				8A204098172067480027A479 /* Slide_DrawerTests.m */,
+				8A204092172067480027A479 /* Supporting Files */,
+			);
+			path = "Slide DrawerTests";
+			sourceTree = "<group>";
+		};
+		8A204092172067480027A479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A204093172067480027A479 /* Slide DrawerTests-Info.plist */,
+				8A204094172067480027A479 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A2040A21720674F0027A479 /* PPSlideDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				8A2040A31720675F0027A479 /* UINavigationController+PPSlideDrawer.h */,
+				8A2040A41720675F0027A479 /* UINavigationController+PPSlideDrawer.m */,
+				8A38992517218EE600C6002B /* PPSlideDrawerDelegate.h */,
+			);
+			name = PPSlideDrawer;
+			path = "Slide Drawer";
+			sourceTree = "<group>";
+		};
+		8A2040A617206BD60027A479 /* Drawers */ = {
+			isa = PBXGroup;
+			children = (
+				8A2040A717206C8C0027A479 /* LeftDrawerViewController.h */,
+				8A2040A817206C8C0027A479 /* LeftDrawerViewController.m */,
+				8A2040A917206C8C0027A479 /* LeftDrawerViewController.xib */,
+				8A2040AC17206CA50027A479 /* BottomDrawerViewController.h */,
+				8A2040AD17206CA50027A479 /* BottomDrawerViewController.m */,
+				8A2040AE17206CA50027A479 /* BottomDrawerViewController.xib */,
+				8A2040BD17206ED80027A479 /* TopDrawerViewController.h */,
+				8A2040BE17206ED80027A479 /* TopDrawerViewController.m */,
+				8A2040BF17206ED80027A479 /* TopDrawerViewController.xib */,
+				8A2040C217206EE10027A479 /* RightDrawerViewController.h */,
+				8A2040C317206EE10027A479 /* RightDrawerViewController.m */,
+				8A2040C417206EE10027A479 /* RightDrawerViewController.xib */,
+			);
+			name = Drawers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A20405D172067480027A479 /* Slide Drawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A20409C172067480027A479 /* Build configuration list for PBXNativeTarget "Slide Drawer" */;
+			buildPhases = (
+				8A20405A172067480027A479 /* Sources */,
+				8A20405B172067480027A479 /* Frameworks */,
+				8A20405C172067480027A479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slide Drawer";
+			productName = "Slide Drawer";
+			productReference = 8A20405E172067480027A479 /* Slide Drawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A204089172067480027A479 /* Slide DrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A20409F172067480027A479 /* Build configuration list for PBXNativeTarget "Slide DrawerTests" */;
+			buildPhases = (
+				8A204085172067480027A479 /* Sources */,
+				8A204086172067480027A479 /* Frameworks */,
+				8A204087172067480027A479 /* Resources */,
+				8A204088172067480027A479 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A204090172067480027A479 /* PBXTargetDependency */,
+			);
+			name = "Slide DrawerTests";
+			productName = "Slide DrawerTests";
+			productReference = 8A20408A172067480027A479 /* Slide DrawerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A204056172067480027A479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 8A204059172067480027A479 /* Build configuration list for PBXProject "Slide Drawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A204055172067480027A479;
+			productRefGroup = 8A20405F172067480027A479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A20405D172067480027A479 /* Slide Drawer */,
+				8A204089172067480027A479 /* Slide DrawerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A20405C172067480027A479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A20406C172067480027A479 /* InfoPlist.strings in Resources */,
+				8A204074172067480027A479 /* Default.png in Resources */,
+				8A204076172067480027A479 /* Default@2x.png in Resources */,
+				8A204078172067480027A479 /* Default-568h@2x.png in Resources */,
+				8A2040AB17206C8C0027A479 /* LeftDrawerViewController.xib in Resources */,
+				8A2040B017206CA50027A479 /* BottomDrawerViewController.xib in Resources */,
+				8A2040BB17206CCE0027A479 /* MainViewController.xib in Resources */,
+				8A2040C117206ED80027A479 /* TopDrawerViewController.xib in Resources */,
+				8A2040C617206EE10027A479 /* RightDrawerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A204087172067480027A479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A204096172067480027A479 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A204088172067480027A479 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A20405A172067480027A479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2040BC17206EB10027A479 /* UINavigationController+PPSlideDrawer.m in Sources */,
+				8A20406E172067480027A479 /* main.m in Sources */,
+				8A204072172067480027A479 /* AppDelegate.m in Sources */,
+				8A2040AA17206C8C0027A479 /* LeftDrawerViewController.m in Sources */,
+				8A2040AF17206CA50027A479 /* BottomDrawerViewController.m in Sources */,
+				8A2040BA17206CCE0027A479 /* MainViewController.m in Sources */,
+				8A2040C017206ED80027A479 /* TopDrawerViewController.m in Sources */,
+				8A2040C517206EE10027A479 /* RightDrawerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A204085172067480027A479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A204099172067480027A479 /* Slide_DrawerTests.m in Sources */,
+				8A2040A51720675F0027A479 /* UINavigationController+PPSlideDrawer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A204090172067480027A479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A20405D172067480027A479 /* Slide Drawer */;
+			targetProxy = 8A20408F172067480027A479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A20406A172067480027A479 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A20406B172067480027A479 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A204094172067480027A479 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A204095172067480027A479 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A20409A172067480027A479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A20409B172067480027A479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A20409D172067480027A479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slide Drawer/Slide Drawer-Prefix.pch";
+				INFOPLIST_FILE = "Slide Drawer/Slide Drawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A20409E172067480027A479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slide Drawer/Slide Drawer-Prefix.pch";
+				INFOPLIST_FILE = "Slide Drawer/Slide Drawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A2040A0172067480027A479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Slide Drawer.app/Slide Drawer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slide Drawer/Slide Drawer-Prefix.pch";
+				INFOPLIST_FILE = "Slide DrawerTests/Slide DrawerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8A2040A1172067480027A479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Slide Drawer.app/Slide Drawer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slide Drawer/Slide Drawer-Prefix.pch";
+				INFOPLIST_FILE = "Slide DrawerTests/Slide DrawerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A204059172067480027A479 /* Build configuration list for PBXProject "Slide Drawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A20409A172067480027A479 /* Debug */,
+				8A20409B172067480027A479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A20409C172067480027A479 /* Build configuration list for PBXNativeTarget "Slide Drawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A20409D172067480027A479 /* Debug */,
+				8A20409E172067480027A479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A20409F172067480027A479 /* Build configuration list for PBXNativeTarget "Slide DrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2040A0172067480027A479 /* Debug */,
+				8A2040A1172067480027A479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A204056172067480027A479 /* Project object */;
+}

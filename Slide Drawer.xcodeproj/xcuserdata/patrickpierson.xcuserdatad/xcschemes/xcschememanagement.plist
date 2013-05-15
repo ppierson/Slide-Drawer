@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Slide Drawer Storyboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Slide Drawer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8A20405D172067480027A479</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A204089172067480027A479</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A3898DF17217FBB00C6002B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A38990317217FBC00C6002B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
