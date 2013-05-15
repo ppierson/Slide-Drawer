@@ -2,9 +2,7 @@ Slide-Drawer
 ============
 iOS category for UINavigationController which enables a view belonging to a UINavigationController to act as a drawer.
 
-Slide Drawer is a simple drawer implementation which takes a screenshot of the current view controller, pushes the "bottom" drawer view controller into view, and overlays the screenshot of the previous view controller to simulate a drawer. The drawer can slide along 4 different directions(up, down, left, and right).
-
-The drawer follows 
+Slide Drawer is a simple drawer implementation which takes a screenshot of the current view controller, pushes the "bottom" drawer view controller into view, and overlays the screenshot of the previous view controller to simulate a drawer. The screenshot then follows the users finger and locks into position. The drawer can slide along 4 different directions(up, down, left, and right).
 
 Adding SlideDrawer to your project:
 ==================================
@@ -15,7 +13,57 @@ Just add the following files to your project.<br/>
 
 Example of how PPSlideDrawer is used:
 =====================================
-This is an example project, so see MainViewController.m in project...
+Example below, also see MainViewController.m in project.
+```
+//Import category
+#import "UINavigationController+PPSlideDrawer.h"
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
+    
+    //enable drawer functionality on current view controller
+    [self.navigationController enableDrawerFunctionalityForCurrentViewController];
+    //set mask to work in all 4 directions
+    [self.navigationController setMovementDirectionMask:(DrawerMovementDirectionUp | DrawerMovementDirectionDown | DrawerMovementDirectionLeft | DrawerMovementDirectionRight)];
+}
+
+#pragma mark - PPSlideDrawerDelegate methods
+//Delegate method to return which view to display "below" sliding drawer
+- (UIViewController*)navigationController:(UINavigationController*)navigationController viewControllerForDrawerMovementDirection:(DrawerMovementDirection)drawerMovementDirection{
+    switch (drawerMovementDirection) {
+        case DrawerMovementDirectionRight:
+            return [[LeftDrawerViewController alloc] init];
+            break;
+        case DrawerMovementDirectionLeft:
+            return [[RightDrawerViewController alloc] init];
+            break;
+        case DrawerMovementDirectionUp:
+            return [[BottomDrawerViewController alloc] init];
+            break;
+        case DrawerMovementDirectionDown:
+            return [[TopDrawerViewController alloc] init];
+            break;
+        default:
+            break;
+    }
+    
+    return nil;
+}
+
+//Delegate method, return YES if you want to override the screenshot to overlay
+- (BOOL)doesUseAlternateSlideScreenCapture{
+    return YES;
+}
+
+//If doesUseAlternateSlideScreenCapture returns true, this will be called. 
+//Returns custom UI image to use when sliding the drawer
+- (UIImage*)alternateSlideScreenCaptureWithOriginalScreenCapture:(UIImage*)originalScreenCapture{
+    return originalScreenCapture;
+}
+
+```
 
 TODO
 ====
