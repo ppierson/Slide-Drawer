@@ -29,6 +29,11 @@ Example below, also see MainViewController.m in project.
     [self.navigationController setMovementDirectionMask:(DrawerMovementDirectionUp | DrawerMovementDirectionDown | DrawerMovementDirectionLeft | DrawerMovementDirectionRight)];
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    //Set slide drawer delegate
+    [self.navigationController setSlideDrawerDelegate:self];
+}
+
 #pragma mark - PPSlideDrawerDelegate methods
 //Delegate method to return which view to display "below" sliding drawer
 - (UIViewController*)navigationController:(UINavigationController*)navigationController viewControllerForDrawerMovementDirection:(DrawerMovementDirection)drawerMovementDirection{
