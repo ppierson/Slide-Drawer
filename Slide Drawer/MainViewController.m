@@ -53,6 +53,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - PPSlideDrawerDelegate methods
 - (UIViewController*)navigationController:(UINavigationController*)navigationController viewControllerForDrawerMovementDirection:(DrawerMovementDirection)drawerMovementDirection{
     switch (drawerMovementDirection) {
         case DrawerMovementDirectionRight:
