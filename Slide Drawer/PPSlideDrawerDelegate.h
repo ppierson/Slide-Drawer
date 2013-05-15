@@ -29,10 +29,14 @@
 @protocol PPSlideDrawerDelegate <NSObject>
 
 @required
+//Delegate method to assign what view controller should be displayed when the drawer is uncovered
 - (UIViewController*)navigationController:(UINavigationController*)navigationController viewControllerForDrawerMovementDirection:(DrawerMovementDirection)drawerMovementDirection;
 
 @optional
+//Returns true if slide drawer should use an alternate screen capture during slide animation
 - (BOOL)doesUseAlternateSlideScreenCapture;
+
+//Called if doesUseAlternateSlideScreenCapture returns true, should return custom uiimage to display in drawer animation
 - (UIImage*)alternateSlideScreenCaptureWithOriginalScreenCapture:(UIImage*)originalScreenCapture;
 
 @end

@@ -36,13 +36,17 @@ typedef enum {
 
 @interface UINavigationController (PPSlideDrawer)
 
+//Enabled drawer functionality for top view controller of UINavigationController
 - (void)enableDrawerFunctionalityForCurrentViewController;
-
+//Sets Slide Drawer delegate
 - (void)setSlideDrawerDelegate:(id<PPSlideDrawerDelegate>)delegate;
+//Gets Slide Drawer delegate
 - (id<PPSlideDrawerDelegate>)getSlideDrawerDelegate;
 
+//Sets mask of allowed movement directions of drawer
 - (void)setMovementDirectionMask:(int)movementDirectionMask;
+//Gets mask of allowed movement directions of drawer
 - (int)getMovementDirectionMask;
-
+//auto shuts the drawer if open
 - (void)autoShutDrawer;
 @end
