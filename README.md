@@ -72,8 +72,9 @@ Example below, also see MainViewController.m in project.
 
 TODO
 ====
-- Implement auto open functionality
+- Implement auto open functionality.
 - Implement swipe from edge functionality(rather than just detect panning gesture).
+- Landscape support.
 
 License
 =======
